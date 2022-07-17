@@ -6,7 +6,7 @@ cache: yarn
 install:
   - yarn install
 script:
-  - yarn init
+  - yarn test
   - yarn run build
 
 deploy:
